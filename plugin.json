@@ -1,14 +1,15 @@
 {
-  "name": "plugin-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/plugin-sample",
-  "version": "0.3.4",
+  "name": "siyuan-mail-archive",
+  "author": "suyj",
+  "url": "https://github.com/suyj-git/siyuan-mail-archive",
+  "version": "0.0.4",
   "minAppVersion": "3.0.0",
   "backends": [
     "windows",
     "linux",
     "darwin",
     "ios",
+    "docker",
     "android"
   ],
   "frontends": [
@@ -19,12 +20,12 @@
     "desktop-window"
   ],
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "Mail archive",
+    "zh_CN": "邮箱存档"
   },
   "description": {
-    "default": "This is a plugin sample",
-    "zh_CN": "这是一个插件示例"
+    "default": "Archive your mails in SiYuan.",
+    "zh_CN": "在思源笔记中存档你的邮件。"
   },
   "readme": {
     "default": "README.md",
@@ -39,7 +40,6 @@
     ]
   },
   "keywords": [
-    "sample",
-    "示例"
+    "mail"
   ]
 }
